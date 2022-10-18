@@ -1,0 +1,75 @@
+body{
+    background-color: #023779;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: #0d1f47;
+    width: 500px;
+    height: 150px;
+    margin: 90px auto;
+    padding: 40px;
+    border-radius:10px;
+    font-size: 25px;
+}
+.generator{
+    background-color: #0d2969;
+    width: 500px;
+    margin: -80px auto;
+    padding: 40px;
+    border-radius:10px;
+}
+div.password{
+    display: grid;
+    grid-template-columns: auto min-content;
+    border-radius:10px;
+    overflow: hidden;
+}
+div.password input{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+    padding: 10px 10px;
+    background-color: #192651;
+    border: 0;
+    color:#fff;
+}
+button{
+    background-color: #345AEE;
+    color:#fff;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border:0;
+    border-radius:10px;
+}
+div.range{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+}
+div.range span{
+    background-color: #192651;
+    padding: 10px;
+    margin-left: 20px;
+    min-width:30px;
+    text-align: center;
+    border-radius:10px;
+}
+div.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+div.options label{
+    display: block;
+    background-color: #192651;
+    padding: 20px;
+    border-radius:10px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+button.generate{
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
+}
